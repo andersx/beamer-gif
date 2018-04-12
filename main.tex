@@ -1,0 +1,29 @@
+\documentclass{beamer}
+\usepackage{multimedia}
+
+\title{How to embed gifs in beamer}
+
+\author{Anders S. Christensen}
+
+\begin{document}
+
+\begin{frame}
+
+    \titlepage
+
+\end{frame}
+
+
+\begin{frame}{Introduction}
+
+    \centering
+    Click to start, bruh.
+    \movie[loop,width=\textwidth]{
+        \includegraphics[width=\textwidth]{pictures/glucosepane.png}
+    }{pictures/glucosepane.wmv}
+
+\end{frame}
+
+
+\end{document}
+
